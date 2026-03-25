@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+@tailwind utilities;
+
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent;
+  }
+  .gradient-text-active-nav {
+    @apply relative bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent 
+             after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.25 
+             after:bg-gradient-to-r after:from-blue-500 after:to-purple-500 ;
+  }
+
+  .gradient-btn {
+    @apply bg-gradient-to-r from-blue-500 to-purple-500 text-white border-none;
+  }
+
+  .gradient-btn-outline {
+    @apply border border-blue-500 text-blue-500 hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-500 hover:text-white;
+  }
+}
