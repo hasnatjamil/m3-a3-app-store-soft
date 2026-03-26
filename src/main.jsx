@@ -12,6 +12,8 @@ import ErrorPage from './pages/ErrorPage/ErrorPage';
 import Apps from './pages/Apps/Apps';
 import Installation from './pages/Installation/Installation';
 import Home from './pages/Home/Home';
+import axios from 'axios';
+import AppDetails from './pages/AppDetails/AppDetails';
 
 
 
@@ -28,6 +30,10 @@ const router = createBrowserRouter([
       },
       {
         index: true,
+        loader: async () => {
+          const res = await axios.get('/appData.json');
+          return res.data
+        },
         element: <Home></Home>
       },
       {
@@ -37,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: "/installation",
         element: <Installation></Installation>,
+      },
+      {
+        path: "/app-details",
+        element: <AppDetails></AppDetails>,
       },
 
     ],

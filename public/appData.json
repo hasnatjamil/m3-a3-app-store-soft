@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "image": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png",
+    "title": "Focus Booster",
+    "companyName": "HeroTech",
+    "description": "Boost productivity using Pomodoro technique.",
+    "size": 45,
+    "reviews": 12450,
+    "ratingAvg": 4.5,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://cdn-icons-png.flaticon.com/512/732/732200.png",
+    "title": "Task Master",
+    "companyName": "NextGen Apps",
+    "description": "Organize your daily tasks efficiently.",
+    "size": 60,
+    "reviews": 8900,
+    "ratingAvg": 4.3,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 3900 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://cdn-icons-png.flaticon.com/512/2991/2991148.png",
+    "title": "Mind Relax",
+    "companyName": "CalmTech",
+    "description": "Meditation and stress relief app.",
+    "size": 75,
+    "reviews": 15000,
+    "ratingAvg": 4.7,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 8850 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888857.png",
+    "title": "FitTrack",
+    "companyName": "Healthify",
+    "description": "Track workouts and calories.",
+    "size": 90,
+    "reviews": 11000,
+    "ratingAvg": 4.4,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 4850 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://cdn-icons-png.flaticon.com/512/1055/1055672.png",
+    "title": "NoteFlow",
+    "companyName": "WriteLabs",
+    "description": "Minimal note-taking app.",
+    "size": 30,
+    "reviews": 6000,
+    "ratingAvg": 4.2,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://cdn-icons-png.flaticon.com/512/1828/1828817.png",
+    "title": "Expense Tracker",
+    "companyName": "MoneySafe",
+    "description": "Manage daily expenses easily.",
+    "size": 55,
+    "reviews": 9800,
+    "ratingAvg": 4.6,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 4960 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    "title": "WeatherNow",
+    "companyName": "SkyTech",
+    "description": "Real-time weather updates.",
+    "size": 40,
+    "reviews": 7200,
+    "ratingAvg": 4.1,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 2900 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://cdn-icons-png.flaticon.com/512/2921/2921222.png",
+    "title": "QuickScan",
+    "companyName": "ScanPro",
+    "description": "Scan documents instantly.",
+    "size": 35,
+    "reviews": 5400,
+    "ratingAvg": 4.3,
+    "downloads": 180000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 2300 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://cdn-icons-png.flaticon.com/512/3062/3062634.png",
+    "title": "LangLearn",
+    "companyName": "EduSoft",
+    "description": "Learn languages faster.",
+    "size": 85,
+    "reviews": 13200,
+    "ratingAvg": 4.8,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 8400 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://cdn-icons-png.flaticon.com/512/747/747376.png",
+    "title": "Photo Editor Pro",
+    "companyName": "PixLab",
+    "description": "Edit photos with AI tools.",
+    "size": 120,
+    "reviews": 20000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 10500 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+    "title": "Habit Builder",
+    "companyName": "LifeUp",
+    "description": "Build and track daily habits effectively.",
+    "size": 50,
+    "reviews": 8700,
+    "ratingAvg": 4.5,
+    "downloads": 350000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 4100 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://cdn-icons-png.flaticon.com/512/727/727245.png",
+    "title": "Music Stream",
+    "companyName": "SoundWave",
+    "description": "Stream your favorite songs anytime.",
+    "size": 95,
+    "reviews": 17500,
+    "ratingAvg": 4.4,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 8300 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://cdn-icons-png.flaticon.com/512/2965/2965879.png",
+    "title": "News Daily",
+    "companyName": "InfoHub",
+    "description": "Stay updated with the latest news.",
+    "size": 65,
+    "reviews": 9400,
+    "ratingAvg": 4.2,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 350 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 3900 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://cdn-icons-png.flaticon.com/512/2721/2721268.png",
+    "title": "Code Learn",
+    "companyName": "DevAcademy",
+    "description": "Learn programming with interactive lessons.",
+    "size": 110,
+    "reviews": 16000,
+    "ratingAvg": 4.7,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 5500 },
+      { "name": "5 star", "count": 9200 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://cdn-icons-png.flaticon.com/512/854/854894.png",
+    "title": "Travel Guide",
+    "companyName": "TripMate",
+    "description": "Discover amazing travel destinations.",
+    "size": 70,
+    "reviews": 6800,
+    "ratingAvg": 4.3,
+    "downloads": 220000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 2700 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://cdn-icons-png.flaticon.com/512/3064/3064197.png",
+    "title": "Secure Vault",
+    "companyName": "SafeTech",
+    "description": "Keep your files safe with encryption.",
+    "size": 80,
+    "reviews": 10200,
+    "ratingAvg": 4.6,
+    "downloads": 420000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 5060 }
+    ]
+  }
+]
