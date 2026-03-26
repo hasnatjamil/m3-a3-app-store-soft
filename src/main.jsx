@@ -52,6 +52,17 @@ const router = createBrowserRouter([
         path: "/app-details",
         element: <AppDetails></AppDetails>,
       },
+      {
+        path: "/app-details/:id",
+        loader: async ({ params }) => {
+          const res = await axios.get('/appData.json')
+          const appProduct = res.data.find(
+            (p) => p.id === Number(params.id)
+          )
+          return appProduct
+        },
+        element: <AppDetails></AppDetails>,
+      },
 
     ],
   },

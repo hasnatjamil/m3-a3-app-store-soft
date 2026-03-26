@@ -4,7 +4,11 @@
     "image": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png",
     "title": "Focus Booster",
     "companyName": "HeroTech",
-    "description": "Boost productivity using Pomodoro technique.",
+    "description": [
+      "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.A unique feature of this app is the integration of task lists with timers. ",
+      "You can assign each task to a specific Pomodoro session, making your schedule more structured. The built-in analytics show not only how much time you’ve worked but also which tasks consumed the most energy. This allows you to reflect on your efficiency and adjust your workflow accordingly. The app also includes optional background sounds such as white noise, nature sounds, or instrumental music to create a distraction-free atmosphere.",
+      "For people who struggle with procrastination, the app provides motivational streaks and achievements. Completing multiple Pomodoro sessions unlocks milestones, giving a sense of accomplishment. This gamified approach makes focusing more engaging and less like a chore. Whether you’re studying for exams, coding, writing, or handling office work, the app adapts to your routine. By combining focus tracking, task management, and motivational tools, this Pomodoro app ensures that you not only work harder but also smarter. It is a personal trainer for your brain, keeping you disciplined, refreshed, and productive throughout the day."
+    ],
     "size": 45,
     "reviews": 12450,
     "ratingAvg": 4.5,
@@ -22,7 +26,11 @@
     "image": "https://cdn-icons-png.flaticon.com/512/732/732200.png",
     "title": "Task Master",
     "companyName": "NextGen Apps",
-    "description": "Organize your daily tasks efficiently.",
+    "description": [
+      "Task Master is designed to simplify the way you manage your daily responsibilities. With an intuitive interface, users can quickly create tasks, assign priorities, and organize their workflow without unnecessary complexity.",
+      "The app features smart reminders and deadline tracking, ensuring that you never miss important commitments. Its clean dashboard gives you a clear overview of your progress, helping you stay focused throughout the day.",
+      "Advanced productivity insights allow you to analyze how you spend your time and identify areas for improvement. Whether you're managing personal errands or professional projects, Task Master keeps you organized and efficient."
+    ],
     "size": 60,
     "reviews": 8900,
     "ratingAvg": 4.3,
@@ -40,7 +48,11 @@
     "image": "https://cdn-icons-png.flaticon.com/512/2991/2991148.png",
     "title": "Mind Relax",
     "companyName": "CalmTech",
-    "description": "Meditation and stress relief app.",
+    "description": [
+      "Mind Relax is a meditation and wellness app designed to help you reduce stress and improve mental clarity. It offers guided meditation sessions suitable for beginners as well as experienced users.",
+      "The app includes breathing exercises, calming music, and sleep stories that help you unwind after a long day. Its peaceful interface creates a distraction-free environment for mindfulness practice.",
+      "With daily reminders and progress tracking, Mind Relax encourages consistency and helps you build a healthier mental routine over time."
+    ],
     "size": 75,
     "reviews": 15000,
     "ratingAvg": 4.7,
@@ -58,7 +70,11 @@
     "image": "https://cdn-icons-png.flaticon.com/512/888/888857.png",
     "title": "FitTrack",
     "companyName": "Healthify",
-    "description": "Track workouts and calories.",
+    "description": [
+      "FitTrack helps you stay on top of your fitness goals by tracking workouts, calories, and daily activity. Its user-friendly interface makes it easy to log exercises and monitor progress.",
+      "The app provides personalized insights based on your activity level, helping you understand your fitness patterns and improve performance.",
+      "With goal-setting features and detailed reports, FitTrack keeps you motivated and committed to a healthier lifestyle."
+    ],
     "size": 90,
     "reviews": 11000,
     "ratingAvg": 4.4,
@@ -76,7 +92,11 @@
     "image": "https://cdn-icons-png.flaticon.com/512/1055/1055672.png",
     "title": "NoteFlow",
     "companyName": "WriteLabs",
-    "description": "Minimal note-taking app.",
+    "description": [
+      "NoteFlow is a minimal and distraction-free note-taking app designed for capturing ideas quickly and efficiently. Its clean interface allows you to focus entirely on your thoughts.",
+      "You can organize notes using tags and categories, making it easy to find information when you need it. Syncing across devices ensures your notes are always accessible.",
+      "Whether you're writing quick reminders or detailed content, NoteFlow provides a smooth and reliable writing experience."
+    ],
     "size": 30,
     "reviews": 6000,
     "ratingAvg": 4.2,
@@ -94,7 +114,11 @@
     "image": "https://cdn-icons-png.flaticon.com/512/1828/1828817.png",
     "title": "Expense Tracker",
     "companyName": "MoneySafe",
-    "description": "Manage daily expenses easily.",
+    "description": [
+      "Expense Tracker helps you manage your finances by recording daily expenses and monitoring spending habits. Its simple interface makes budgeting effortless.",
+      "The app provides visual reports and charts that give you a clear understanding of where your money goes each month.",
+      "With smart categorization and alerts, it helps you stay within your budget and build better financial habits over time."
+    ],
     "size": 55,
     "reviews": 9800,
     "ratingAvg": 4.6,
@@ -112,7 +136,11 @@
     "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
     "title": "WeatherNow",
     "companyName": "SkyTech",
-    "description": "Real-time weather updates.",
+    "description": [
+      "WeatherNow delivers real-time weather updates with accurate forecasts tailored to your location. It provides temperature, humidity, and wind information in a simple format.",
+      "The app includes hourly and weekly forecasts, helping you plan your day and upcoming events more effectively.",
+      "With a clean design and fast performance, WeatherNow ensures you always stay informed about changing weather conditions."
+    ],
     "size": 40,
     "reviews": 7200,
     "ratingAvg": 4.1,
@@ -130,7 +158,11 @@
     "image": "https://cdn-icons-png.flaticon.com/512/2921/2921222.png",
     "title": "QuickScan",
     "companyName": "ScanPro",
-    "description": "Scan documents instantly.",
+    "description": [
+      "QuickScan transforms your device into a powerful document scanner, allowing you to capture and digitize papers instantly.",
+      "It offers features like auto-cropping, text recognition (OCR), and PDF export, making it ideal for students and professionals.",
+      "With cloud integration, you can save and access your scanned documents anytime, anywhere."
+    ],
     "size": 35,
     "reviews": 5400,
     "ratingAvg": 4.3,
@@ -148,7 +180,11 @@
     "image": "https://cdn-icons-png.flaticon.com/512/3062/3062634.png",
     "title": "LangLearn",
     "companyName": "EduSoft",
-    "description": "Learn languages faster.",
+    "description": [
+      "LangLearn is an interactive language learning app that helps users build vocabulary, grammar, and speaking skills effectively.",
+      "The app uses quizzes, flashcards, and real-life scenarios to make learning engaging and practical.",
+      "With progress tracking and personalized lessons, LangLearn adapts to your pace and helps you achieve fluency faster."
+    ],
     "size": 85,
     "reviews": 13200,
     "ratingAvg": 4.8,
@@ -166,7 +202,11 @@
     "image": "https://cdn-icons-png.flaticon.com/512/747/747376.png",
     "title": "Photo Editor Pro",
     "companyName": "PixLab",
-    "description": "Edit photos with AI tools.",
+    "description": [
+      "Photo Editor Pro offers advanced editing tools powered by AI to enhance your photos effortlessly.",
+      "You can apply filters, adjust lighting, remove backgrounds, and retouch images with just a few taps.",
+      "Whether you're a beginner or a professional, the app provides everything you need to create stunning visuals."
+    ],
     "size": 120,
     "reviews": 20000,
     "ratingAvg": 4.6,
@@ -184,7 +224,11 @@
     "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
     "title": "Habit Builder",
     "companyName": "LifeUp",
-    "description": "Build and track daily habits effectively.",
+    "description": [
+      "Habit Builder helps you develop positive routines by tracking daily habits and progress over time.",
+      "The app provides reminders and streak tracking to keep you consistent and motivated.",
+      "With detailed insights, you can understand your behavior patterns and build long-lasting habits."
+    ],
     "size": 50,
     "reviews": 8700,
     "ratingAvg": 4.5,
@@ -202,7 +246,11 @@
     "image": "https://cdn-icons-png.flaticon.com/512/727/727245.png",
     "title": "Music Stream",
     "companyName": "SoundWave",
-    "description": "Stream your favorite songs anytime.",
+    "description": [
+      "Music Stream allows you to listen to your favorite songs anytime with a vast library of tracks across genres.",
+      "The app provides personalized playlists and recommendations based on your listening habits.",
+      "With offline mode and high-quality audio, you can enjoy music without interruptions wherever you go."
+    ],
     "size": 95,
     "reviews": 17500,
     "ratingAvg": 4.4,
@@ -220,7 +268,11 @@
     "image": "https://cdn-icons-png.flaticon.com/512/2965/2965879.png",
     "title": "News Daily",
     "companyName": "InfoHub",
-    "description": "Stay updated with the latest news.",
+    "description": [
+      "News Daily keeps you updated with the latest headlines from around the world in real time.",
+      "The app curates news based on your interests, ensuring you see the most relevant stories.",
+      "With a clean reading interface and notifications, you never miss important updates."
+    ],
     "size": 65,
     "reviews": 9400,
     "ratingAvg": 4.2,
@@ -238,7 +290,11 @@
     "image": "https://cdn-icons-png.flaticon.com/512/2721/2721268.png",
     "title": "Code Learn",
     "companyName": "DevAcademy",
-    "description": "Learn programming with interactive lessons.",
+    "description": [
+      "Code Learn is an interactive platform designed to teach programming through hands-on lessons and exercises.",
+      "It covers multiple languages and provides real-world projects to strengthen your skills.",
+      "With step-by-step guidance and progress tracking, it makes learning to code accessible and engaging."
+    ],
     "size": 110,
     "reviews": 16000,
     "ratingAvg": 4.7,
@@ -256,7 +312,11 @@
     "image": "https://cdn-icons-png.flaticon.com/512/854/854894.png",
     "title": "Travel Guide",
     "companyName": "TripMate",
-    "description": "Discover amazing travel destinations.",
+    "description": [
+      "Travel Guide helps you discover new destinations with curated recommendations and travel tips.",
+      "The app provides detailed information about attractions, hotels, and local culture.",
+      "With offline access and trip planning tools, it ensures a smooth and enjoyable travel experience."
+    ],
     "size": 70,
     "reviews": 6800,
     "ratingAvg": 4.3,
@@ -274,7 +334,11 @@
     "image": "https://cdn-icons-png.flaticon.com/512/3064/3064197.png",
     "title": "Secure Vault",
     "companyName": "SafeTech",
-    "description": "Keep your files safe with encryption.",
+    "description": [
+      "Secure Vault protects your sensitive files and data using advanced encryption technology.",
+      "You can store documents, photos, and passwords securely in one place.",
+      "With biometric authentication and backup options, your data remains safe and easily accessible only to you."
+    ],
     "size": 80,
     "reviews": 10200,
     "ratingAvg": 4.6,

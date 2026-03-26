@@ -127,7 +127,7 @@ const Apps = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                     {!loading &&
                         filteredApps.map((app) => (
-                            <Link to="/app-details" key={app.id}>
+                            <Link to={`/app-details/${app.id}`} key={app.id}>
                                 <div className="bg-white rounded-sm shadow-sm hover:shadow-2xl transition duration-300 p-5">
                                     <div className="flex justify-center mb-4">
                                         <img

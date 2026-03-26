@@ -38,7 +38,7 @@ const TrendingApps = ({ trendingApps }) => {
 
                 {visibleApps.map((trendingApp) => (
 
-                    <Link to='/app-details'  key={trendingApp.id} className="block">
+                    <Link to={`/app-details/${trendingApp.id}`}  key={trendingApp.id} className="block">
                         <div
                            
                             className="bg-white rounded-sm shadow-sm hover:shadow-2xl transition duration-300 p-5"
