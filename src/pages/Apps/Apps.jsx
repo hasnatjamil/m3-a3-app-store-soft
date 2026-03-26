@@ -26,14 +26,14 @@ const Apps = () => {
     // Handle search filtering
     useEffect(() => {
         const delayDebounce = setTimeout(() => {
-            setLoading(true); // start loading only when filtering begins
+            setLoading(true); 
 
             const results = apps.filter((app) =>
                 app.title.toLowerCase().includes(searchTerm.toLowerCase())
             );
 
             setFilteredApps(results);
-            setLoading(false); // stop loading after filtering
+            setLoading(false); 
         }, 400);
 
         return () => clearTimeout(delayDebounce);
@@ -122,7 +122,8 @@ const Apps = () => {
 
                 )}
 
-                {/* Results */}
+
+                {/* if loading or successfull search Results */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                     {!loading &&
                         filteredApps.map((app) => (
