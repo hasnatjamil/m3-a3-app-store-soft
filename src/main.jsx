@@ -14,7 +14,7 @@ import Installation from './pages/Installation/Installation';
 import Home from './pages/Home/Home';
 import axios from 'axios';
 import AppDetails from './pages/AppDetails/AppDetails';
-
+import { Toaster } from "react-hot-toast";
 
 
 
@@ -77,6 +77,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
 
     <RouterProvider router={router} />,
+    <Toaster />
 
   </StrictMode>,
 )

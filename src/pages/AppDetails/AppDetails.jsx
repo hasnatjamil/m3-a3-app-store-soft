@@ -1,4 +1,5 @@
 
+import {  useState } from "react";
 import downloadIcon from "../../assets/icon-downloads.png";
 import ratingsIcon from "../../assets/icon-ratings.png";
 import reviewIcon from "../../assets/icon-review.png";
@@ -14,11 +15,14 @@ import {
     Tooltip
 
 } from "recharts";
+import { getStoredDataFromLS, saveDataToLS } from "../../utils/localStorage";
+import toast from "react-hot-toast";
+
+
 
 const formatInternationalNumber = (number, locale = "en-US", options = {}) => {
     return new Intl.NumberFormat(locale, { notation: "compact", compactDisplay: "short", ...options, }).format(number);
 };
-
 
 
 const AppDetails = () => {
@@ -39,7 +43,19 @@ const AppDetails = () => {
 
 
 
+    const [installedApps, setInstalledApps] = useState(getStoredDataFromLS());
 
+    const isDisabled = installedApps.includes(appDetails.id);
+
+    const handleSaveToLocalStorage = (id) => {
+        saveDataToLS(id);
+        setInstalledApps(getStoredDataFromLS());
+         toast.success("App Installed Successfully!");
+    };
+
+
+
+ 
     return (
         <div className="max-w-[1200px] mx-auto px-4 md:px-6 py-8 md:py-12">
 
@@ -97,8 +113,13 @@ const AppDetails = () => {
                     </div>
 
                     {/* Install now Button */}
-                    <button className="bg-green-500 hover:bg-green-700 hover:cursor-pointer text-white w-full md:w-auto px-6 py-3 rounded font-medium transition">
-                        Install Now
+                    <button
+                        onClick={() => handleSaveToLocalStorage(appDetails.id)}
+                        className={`w-full md:w-auto px-6 py-3 rounded font-medium transition 
+                            ${isDisabled ? "bg-gray-400 text-white cursor-not-allowed"
+                                : "bg-green-500 hover:bg-green-600 text-white"}`} disabled={isDisabled} >
+                        {
+                            isDisabled ? `Installed (${appDetails.size} MB)` : `Install Now (${appDetails.size} MB)`}
                     </button>
 
 
@@ -109,7 +130,7 @@ const AppDetails = () => {
 
             <hr className="mt-8 border-gray-300" />
 
-            {/* rating */}
+            {/* rating section*/}
             <div className="mt-12">
                 <h2 className="text-lg font-semibold mb-4 pb-2">
                     Ratings
