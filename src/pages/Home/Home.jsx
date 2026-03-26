@@ -7,13 +7,13 @@ import TrendingApps from "../../components/TrendingApps/TrendingApps";
 
 const Home = () => {
     const trendingApps = useLoaderData();
-    console.log(trendingApps);
-    
+    // console.log(trendingApps);
+
     return (
         <div>
             <Hero></Hero>
 
-             <Suspense fallback={<>"Loading....."</>}>
+            <Suspense fallback={<>"Loading....."</>}>
                 <TrendingApps trendingApps={trendingApps}></TrendingApps>
             </Suspense>
 

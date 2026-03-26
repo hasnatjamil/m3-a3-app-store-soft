@@ -5,12 +5,14 @@ import Footer from '../components/Shared/Footer';
 
 const Layout = () => {
     return (
-        <div>
+        <>
 
             <Navbar></Navbar>
-            <Outlet></Outlet>
+            <div className='bg-gray-100'>
+                <Outlet></Outlet>
+            </div>
             <Footer></Footer>
-        </div>
+        </>
     );
 };
 

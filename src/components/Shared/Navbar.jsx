@@ -27,7 +27,7 @@ const Navbar = () => {
     return (
         <div className='max-w-7xl mx-auto px-4 md:px-4 lg:px-4'>
 
-            <div className="navbar bg-base-100 flex flex-col md:flex-row md:items-center md:justify-between px-4 md:px-4 lg:px-4">
+            <div className="navbar  flex flex-col md:flex-row md:items-center md:justify-between px-4 md:px-4 lg:px-4">
 
                 {/* Left side: Hamburger + Logo */}
                 <div className="flex items-center justify-between w-full md:w-auto">

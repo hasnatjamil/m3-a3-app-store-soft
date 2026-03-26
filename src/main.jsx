@@ -46,6 +46,10 @@ const router = createBrowserRouter([
       },
       {
         path: "/installation",
+        loader: async () => {
+          const res = await axios.get("/appData.json");
+          return res.data;
+        },
         element: <Installation></Installation>,
       },
       {
@@ -75,9 +79,12 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-
-    <RouterProvider router={router} />,
-    <Toaster />
-
-  </StrictMode>,
-)
+    <>
+      <RouterProvider
+        router={router}
+        fallbackElement={<p>Loading...</p>}
+      />
+      <Toaster />
+    </>
+  </StrictMode>
+);
