@@ -21,7 +21,7 @@ const TrendingApps = ({ trendingApps }) => {
     return (
 
 
-        
+
         <div className="max-w-[1200px] mx-auto px-4 py-10">
             <div className="py-6 text-center">
                 <h3 className="font-bold text-5xl">Trending Apps</h3>
@@ -38,9 +38,9 @@ const TrendingApps = ({ trendingApps }) => {
 
                 {visibleApps.map((trendingApp) => (
 
-                    <Link to='/app-details'>
+                    <Link to='/app-details'  key={trendingApp.id} className="block">
                         <div
-                            key={trendingApp.id}
+                           
                             className="bg-white rounded-sm shadow-sm hover:shadow-2xl transition duration-300 p-5"
                         >
 
